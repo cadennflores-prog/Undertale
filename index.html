@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Emscripten Game</title>
+    </head>
+<body style="margin: 0; display: flex; justify-content: center;">
+
+    <canvas class="emscripten" 
+            id="canvas" 
+            oncontextmenu="event.preventDefault()" 
+            tabindex="1" 
+            width="640" 
+            height="480" 
+            style="display: block; cursor: default;">
+    </canvas>
+
+    <div id="pauseMenuContainer" hidden></div>
+    <div class="loading"></div>
+    <div class="output-container" id="output-container"></div>
+    <div id="message-container"></div>
+
+    <script async 
+            data-ad-client="ca-pub-123" 
+            data-ad-frequency-hint="30s" 
+            data-adbreak-test="on" 
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script>
+
+    <script></script>
+    <script type="text/javascript"></script>
+
+    <script async type="text/javascript" src="runner.js"></script>
+
+</body>
+</html>
